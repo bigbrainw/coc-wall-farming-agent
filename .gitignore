@@ -1,0 +1,22 @@
+# Allowlist: publish only the controller code and its docs.
+# Everything else here (traces, ledgers, footage, runtimes, .env) stays local.
+/*
+!/.gitignore
+!/README.md
+!/AGENTS.md
+!/android_farming_batch.md
+!/battle_cycle_runbook.md
+!/strategy_gate.md
+!/wall_audit.md
+!/scripts/
+/scripts/*
+!/scripts/android_agent/
+!/scripts/footage/
+/scripts/android_agent/*
+!/scripts/android_agent/*.py
+!/scripts/android_agent/vision_ocr.swift
+/scripts/footage/*
+!/scripts/footage/*.py
+!/scripts/footage/*.md
+__pycache__/
+.DS_Store
